@@ -1,4 +1,4 @@
-const isPrimeWithRecurcion = (num) => {
+const isPrimeWithRecursion = (num) => {
     const iter = (i) => {
         if (num < 2) return false;
         if (num === i) return true;
