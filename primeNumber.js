@@ -9,7 +9,7 @@ const isPrimeWithRecursion = (num) => {
     }
     return iter(2);
 }
-console.log(isPrimeWithRecurcion(25));
+console.log(isPrimeWithRecursion(25));
 
 const isPrimeWithLoop = (num) => {
     if (num < 2) return false;
